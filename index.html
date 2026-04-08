@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple counter application with increment, decrement, and reset functionality">
+    <title>Simple Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="counter-card">
+            <h1 class="title">Counter App</h1>
+            <div class="counter-display">
+                <span id="counter-value" class="counter-value">0</span>
+            </div>
+            <div class="button-group">
+                <button id="decrement-btn" class="btn btn-decrement" aria-label="Decrement counter">
+                    <span class="btn-icon">−</span>
+                </button>
+                <button id="reset-btn" class="btn btn-reset" aria-label="Reset counter">
+                    <span class="btn-text">Reset</span>
+                </button>
+                <button id="increment-btn" class="btn btn-increment" aria-label="Increment counter">
+                    <span class="btn-icon">+</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
